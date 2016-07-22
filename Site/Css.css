@@ -1,0 +1,32 @@
+body{
+	background-image: url("img/bg.jpg");
+	text-align: center;
+	color: #AAAA56;
+}
+input, label{
+	background-color: rgba(155, 155, 43, 0.2);
+	color: #AAAA56;
+	border-radius: 5px;
+	border: 2px solid #AAAA56;
+}
+#questionDiv, #showAnswer{
+	background-color: rgba(155, 155, 43, 0.2);
+	width: 500px;
+	border-radius: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h2{
+	background-color: rgba(155, 155, 43, 0.2);
+	width: 500px;
+	border-radius: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#rob{
+	background-image: url("img/rob.png");
+	height: 600px;
+	width:500px;
+	margin-left: auto;
+	margin-right: auto;
+}

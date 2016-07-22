@@ -1,0 +1,12 @@
+var hiddendiv = document.getElementById("showAnswer");
+hiddendiv.style.display = "none";
+var answer = document.getElementById("answer");
+
+var showAnswer = function(){
+	var password = document.getElementById("password").value;
+	if(password){
+		answer.innerHTML = password;
+	document.getElementById("questionDiv").style.display = "none";
+	hiddendiv.style.display = "block";
+	}
+};
